@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="Crusade_Indv.css">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Crusade of Conceptions</title>
+   </head>
+<body>
+  <div class="container">
+    <div class="title">Registration</div>
+    <div class="content">
+      <form id="Crusade_Indv">
+        <div class="user-details">
+          <div class="input-box">
+            <span class="details">Name</span>
+            <input type="text" placeholder="Enter your name" id="Name" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Institute Name(School/College)</span>
+            <input type="text" placeholder="Enter your Institute" id="institutename" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Standard/Semester</span>
+            <input type="text" placeholder="9th Standard/5th Semester" id="standard_semester" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Email Id</span>
+            <input type="email" placeholder="name@mail.com" id="Email" required>
+          </div>
+          <div class="input-box">
+              <span class="details">WhatsApp Number</span>
+              <input type="integer" placeholder="9456238017" id="Whatsappnum" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Alternate Number</span>
+            <input type="integer" placeholder="9456238017" id="Altnum" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Language</span>
+            <select id="language">
+                <option value="English">English</option>
+                <option value="Urdu">Urdu</option>
+                <option value="Hindi">Hindi</option>
+                <option value="Bengali">Bengali</option>
+                <option value="Hindi & English">Hindi & English</option>
+                <option value="English & Urdu">English & Urdu</option>
+                <option value="Bengali & English">Bengali & English</option>
+                <option value="Urdu & Bengali">Urdu & Bengali</option>
+                <option value="Hindi & Bengali">Hindi & Bengali</option>
+                <option value="Hindi & Urdu">Hindi & Urdu</option>
+            </select>
+          </div>
+          <div class="input-box">
+            <span class="details">Stance</span>
+            <select  id="stance">
+              <option value="For">For</option>
+              <option value="Against">Against</option>
+            </select>
+          </div>
+        </div>
+        <div class="button" id="crusade_submit">
+          Register
+        </div>
+      </form>
+    </div>
+  </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/firebase/7.14.1-0/firebase.js"></script>
+  <script src="Crusade_indv.js"></script>
+</body>
+</html>

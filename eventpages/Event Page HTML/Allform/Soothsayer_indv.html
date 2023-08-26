@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="Soothsayer_indv.css">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Soothsayer's Tale</title>
+   </head>
+<body>
+  <div class="container">
+    <div class="title">Registration</div>
+    <div class="content">
+      <form id="Soothsayer_indv">
+        <div class="user-details">
+          <div class="input-box">
+            <span class="details">Name</span>
+            <input type="text" placeholder="Enter your name" id="Name" required>
+          </div>
+          <div class="input-box">
+            <span class="details">College Name</span>
+            <input type="text" placeholder="Enter your Institute" id="Collegename" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Email Id</span>
+            <input type="email" placeholder="name@mail.com" id="Email" required>
+          </div>
+          <div class="input-box">
+              <span class="details">Stream</span>
+              <input type="text" placeholder="CST" id="stream" required>
+            </div>
+            <div class="input-box">
+                <span class="details">Deaprtment</span>
+                <input type="text" placeholder="B.Tech" id="depart" required>
+            </div>
+            <div class="input-box">
+              <span class="details">WhatsApp Number</span>
+              <input type="integer" placeholder="9456238017" id="Whatsappnum" required>
+            </div>
+          <div class="input-box">
+            <span class="details">Altenate Number</span>
+            <input type="integer" placeholder="9456238017" id="Altnum" required>
+          </div>
+        </div>
+        <div class="button" id="sooth_submit">
+          Register
+        </div>
+      </form>
+    </div>
+  </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/firebase/7.14.1-0/firebase.js"></script>
+  <script src="Soothsayer_indv.js"></script>
+</body>
+</html>

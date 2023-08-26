@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="Crusade_Team.css">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Crusade of Conceptions</title>
+   </head>
+<body>
+  <div class="container">
+    <div class="title">Registration</div>
+    <div class="content">
+      <form id="Crusade_Team">
+        <div class="user-details">
+          <div class="input-box">
+            <span class="details">Member 1 Name</span>
+            <input type="text" placeholder="Enter your name" id="mem1Name" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Member 1(School/College Name)</span>
+            <input type="text" placeholder="Enter your Institute" id="mem1institutename" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Member 1 Standard/Semester</span>
+            <input type="text" placeholder="9th Standard/5th Semester" id="mem1standard_semester" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Member 1 Email Id</span>
+            <input type="email" placeholder="name@mail.com" id="mem1Email" required>
+          </div>
+          <div class="input-box">
+              <span class="details">Member 1 WhatsApp Number</span>
+              <input type="integer" placeholder="9456238017" id="mem1Whatsappnum" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Member 1 Alternate Number</span>
+            <input type="integer" placeholder="9456238017" id="mem1Altnum" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Member 2 Name</span>
+            <input type="text" placeholder="Enter your name" id="mem2Name" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Member 2(School/College Name)</span>
+            <input type="text" placeholder="Enter your Institute" id="mem2institutename" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Member 2 Standard/Semester</span>
+            <input type="text" placeholder="9th Standard/5th Semester" id="mem2standard_semester" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Member 2 Email Id</span>
+            <input type="email" placeholder="name@mail.com" id="mem2Email" required>
+          </div>
+          <div class="input-box">
+              <span class="details">Member 2 WhatsApp Number</span>
+              <input type="integer" placeholder="9456238017" id="mem2Whatsappnum" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Member 2 Alternate Number</span>
+            <input type="integer" placeholder="9456238017" id="mem2Altnum" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Language</span>
+            <select id="language">
+                <option value="English">English</option>
+                <option value="Urdu">Urdu</option>
+                <option value="Hindi">Hindi</option>
+                <option value="Bengali">Bengali</option>
+                <option value="Hindi & English">Hindi & English</option>
+                <option value="English & Urdu">English & Urdu</option>
+                <option value="Bengali & English">Bengali & English</option>
+                <option value="Urdu & Bengali">Urdu & Bengali</option>
+                <option value="Hindi & Bengali">Hindi & Bengali</option>
+                <option value="Hindi & Urdu">Hindi & Urdu</option>
+            </select>
+          </div>
+          <div class="input-box">
+            <span class="details">Member 1 Stance</span>
+            <select  id="mem1stance">
+              <option value="For">For</option>
+              <option value="Against">Against</option>
+            </select>
+          </div>
+          <div class="input-box">
+            <span class="details">Member 2 Stance</span>
+            <select  id="mem2stance">
+                <option value="Against">Against</option>
+              <option value="For">For</option>
+            </select>
+          </div>
+        </div>
+        <div class="button" id="crus_team">
+          Register
+        </div>
+      </form>
+    </div>
+  </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/firebase/7.14.1-0/firebase.js"></script>
+  <script src="Crusade_Team.js"></script>
+</body>
+</html>
